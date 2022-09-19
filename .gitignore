@@ -1,0 +1,54 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# gradle
+build
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# idea
+.idea
+.idea/
+*.iml
+local.properties
+out/
+*.iws
+*.ipr
+target/
+test-output/
+.DS_Store
+.project
+.settings
+.classpath
+.vscode
+.java-version
+build/
+bin/
+
+# mr (see .mrconfig)
+wiki
+
+# vim
+*.sw?
+
+# generated code
+.teamcity
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+#Report
+report-result/
+src/main/resources/*.xlsx
+*.xlsx
+*.exe
+*.log
+
