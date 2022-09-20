@@ -11,6 +11,7 @@ public class Controller {
     static Integer y = 0;
     static Integer facing = N;
 
+    //First, navigator need to describe the max x,y coordination in where rover moves     
     public int maxX;
     public int maxY;
 
