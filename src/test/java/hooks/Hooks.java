@@ -7,14 +7,14 @@ import navigation.Controller;
 
 public class Hooks {
 
-    // before starting test, get to know the first location
+    
     @Before
     public void initialLocation(){
-        System.out.println("First location: "
+        System.out.println("Initial location: "
                 + Controller.getPosition());
     }
 
-    // print the final location
+  
     @After
     public void finalLocation(Scenario scenario){
         System.out.println("Final location: "
