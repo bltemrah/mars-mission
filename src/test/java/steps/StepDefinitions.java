@@ -102,27 +102,6 @@ public class StepDefinitions {
         }
     }
 
-//    @When("the navigator orders a single command of move {int} units forward")
-//    public void theOperatorSendsASingleMoveCommandOfUnitForward(int distance, String direction) {
-//        switch (direction) {
-//            case "left":
-//                controller.turnLeft();
-//                controller.move(distance);
-//                break;
-//            case "right":
-//                controller.turnRight();
-//                controller.move(distance);
-//                break;
-//            case "back":
-//                controller.turnBack();
-//                controller.move(distance);
-//                break;
-//            case "forward":
-//                controller.move(distance);
-//                break;
-//        }
-//    }
-
     @When("the rover is settled at coordinates x = {int} and y = {int} facing = {int}")
     public void theRoverIsSettledAtCoordinatesXAndYFacing(int coordinateX, int coordinateY, int facing) {
         var actualX = controller.getAxisX();
