@@ -12,8 +12,8 @@ We expect that the robotic rover will be able to successfully navigate over the 
 
 ### Key Features
 
-- Framework: Cucumber BDD framework with Gherkin DSL
-- Software language: Java 1.8.0_311
+- Framework: Cucumber BDD framework with Maven
+- Software language: Java 11
 - Project build: Gradle
 - Library: JUnit & TestNG
 
